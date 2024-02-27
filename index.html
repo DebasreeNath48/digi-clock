@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Real-Time Clock</title>
+</head>
+
+<body>
+  <div class="container text-center">
+    <div class="jumbotron">
+      <h1 class="display-4">Real-Time Clock</h1>
+      <p class="lead">A simple digital clock using Bootstrap and JavaScript</p>
+    </div>
+
+    <div id="clock" class="display-1"></div>
+
+    <div class="mt-4">
+      <button class="btn btn-primary mr-2" onclick="toggleClock()">Toggle Clock</button>
+      <button class="btn btn-danger" onclick="resetClock()">Reset Clock</button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
